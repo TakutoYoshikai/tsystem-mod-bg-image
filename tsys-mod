@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$1" = "bg" ]; then
+  if [ "$2" = "tsystem" ]; then
+    gsettings set org.gnome.desktop.background picture-uri "file://$HOME/tsystem-mods/bg-image/images/tsystem-wallpaper.png"
+    exit 0
+  fi
+  if [ "$2" = "nats" ]; then
+    gsettings set org.gnome.desktop.background picture-uri "file://$HOME/tsystem-mods/bg-image/images/nats-bg.png"
+    exit 0
+  fi
+fi
+exit 1

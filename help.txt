@@ -1,0 +1,5 @@
+tsys bg tsystem
+  It changes desktop image to image of tsystem.
+
+tsys bg nats
+  It changes desktop image to image of nats.
